@@ -1,0 +1,67 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #1c1d25;
+  font-size: 30px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.testing {
+  display: flex;
+  justify-content: center;
+}
+
+.icons {
+  display: flex;
+  width: 500px;
+  justify-content: space-around;
+}
+
+#resume {
+  width: 60px;
+}
+#email {
+  width: 70px;
+}
+#github {
+  width: 60px;
+}
+
+#linkedin {
+  width: 60px;
+}
+
+.words {
+  align-items: center;
+  color: white;
+  margin: 25px;
+}
+
+.pic {
+  display: flex;
+  align-items: center;
+}
+
+#facePic {
+  width: 200px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 500px) {
+  .App {
+    font-size: 20px;
+  }
+  #facePic {
+    width: 180px;
+    margin-right: 5px;
+  }
+  .icons {
+    width: 300px;
+  }
+}
