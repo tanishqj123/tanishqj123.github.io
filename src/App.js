@@ -16,12 +16,13 @@ function App() {
             <p id="school">Student at Georgia Institute of Technology</p>
           </div>
           <div className="pic">
-            <img id="facePic" src={headshot}></img>
+            <img id="facePic" src={headshot} alt="face"></img>
           </div>
         </div>
         <div className="testing">
           <div className="icons">
             <img
+              alt="resumeee"
               id="resume"
               src={resume}
               onClick={(event) => {
@@ -29,13 +30,14 @@ function App() {
                 window.open(filePath);
               }}
             ></img>
-            {/* <img id="resume" src={resume} href={filePath}></img> */}
             <img
+              alt="e-mail"
               id="email"
               src={email}
               onClick={() => (window.location = "mailto:tjain44@gatech.edu")}
             ></img>
             <img
+              alt="git"
               id="github"
               src={github}
               onClick={() =>
@@ -43,6 +45,7 @@ function App() {
               }
             ></img>
             <img
+              alt="linked"
               id="linkedin"
               src={linkedin}
               onClick={() =>
